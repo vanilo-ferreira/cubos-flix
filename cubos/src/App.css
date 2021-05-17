@@ -1,0 +1,118 @@
+.App {
+  text-align: left; 
+  font-family: 'Manrope', sans-serif;
+  background-color: #1D2226; 
+  color: #FDFDFD
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.barraDeNavegacao {
+  background-color: #0F1C26;
+  height: 50px;
+}
+
+.alinhamentoBarraDeNavegacao{
+  display: flex; 
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.alinhamentoIconeETexto{
+  display: flex; 
+  flex-direction: row;
+}
+
+.pesquisarFilmes{
+  background-color: #0F1C26;
+  color: white; 
+  font-weight: 500;
+  font-size: 16px; 
+  width: 100px; 
+}
+
+::placeholder{
+  color: white; 
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: row;
+}
+
+.lateralEsquerda{
+  min-width: 1000px;
+  margin-left: 50px;
+}
+
+/*CUPOM*/
+
+.cupom{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Quantico', sans-serif;
+}
+
+.chamadaCupom{
+  margin-right: 20px;
+}
+
+/*FILMES*/
+.textoFilmes{
+  font-size: 14px; 
+  Font-style: normal; 
+  font-weight: bold;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.caixaFiltro{
+  background-color: #1D2226;
+  border: 2px;
+  border-color: #FDFDFD;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.textoFiltro{
+  font-family: sans-serif; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 33px;
+}
+
+/*SACOLA*/
+
+.caixaSacola{
+  width: 312px;
+  height: 437px;
+  background-color: black;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.barraSacola{
+  width: 312px;
+  height: 40px;
+  background-color: #A785ED; 
+}
+
+.textoSacola{
+  font-size: 24px;
+
+}
+
+.textoInput{
+  font-size: 12px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+#inputCupom{
+}
